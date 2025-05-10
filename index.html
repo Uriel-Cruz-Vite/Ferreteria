@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ferretería GUICHO</title>
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+<header>
+    <h1>FERRETERÍA GUICHO</h1>
+</header>
+<div class="social-bar">
+    <a href="https://www.facebook.com/share/1CBj5Fm4vm/?mibextid=wwXIfr" target="_blank" title="Facebook">
+        <img src="img/facebook.png" alt="Facebook">
+    </a>
+    <a href="https://www.instagram.com" target="_blank" title="Instagram">
+        <img src="img/insta.png" alt="Instagram">
+    </a>
+    <a href="https://wa.me/7711280922" target="_blank" title="WhatsApp">
+        <img src="img/whatsapp.png" alt="WhatsApp">
+    </a>
+    <a href="https://youtube.com/@luistadeohernandezmendoza.?si=RIqGZW2dHFoL7xMt" target="_blank" title="YouTube">
+        <img src="img/youtube.png" alt="YouTube">
+    </a>
+</div>
+<section class="carousel">
+    <div class="carousel">
+        <img src="img/home1.jpeg" class="active" alt="Imagen 1">
+        <img src="img/home2.jpeg" alt="Imagen 2">
+        <img src="img/home3.jpeg" alt="Imagen 3">
+        <img src="img/home4.jpeg" alt="Imagen 4">
+        <img src="img/home5.jpeg" alt="Imagen 5">
+        <img src="img/home6.jpeg" alt="Imagen 6">
+    </div>
+</section>
+
+<div class="button-container">
+    <a href="inicio.html" class="access-button">Acceso</a>
+</div>
+<footer class="footer">
+    <div class="footer-marquee">
+        <p class="marquee-text">COBAEH — COBAEH — COBAEH —</p>
+    </div>
+
+    <div class="footer-content">
+        <p>&copy; <span id="year"></span> Ferretería GUICHO. Todos los derechos reservados.</p>
+        <p>Tianguistengo, Hidalgo</p>
+    </div>
+</footer>
+
+<script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+<script src="js/script.js"></script>
+</body>
+</html>
