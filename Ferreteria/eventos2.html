@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Promociones - Ferretería GUICHO</title>
+  <link rel="stylesheet" href="css/styles.css"/>
+</head>
+<body>
+<header>
+  <h1>Promociones</h1>
+</header>
+<nav class="navbar">
+  <div class="navbar-container">
+    <div class="navbar-links">
+      <a href="index.html">Inicio</a>
+      <a href="quienes_somos.html">Quiénes somos</a>
+
+      <div class="dropdown">
+        <a href="servicios.html" class="dropbtn">
+          Servicios <span class="arrow">▼</span>
+        </a>
+        <div class="dropdown-content">
+          <a href="electricidad.html">Electricidad</a>
+          <a href="plomeria.html">Plomería</a>
+          <a href="veterinaria.html">Veterinaria</a>
+          <a href="pintura.html">Pintura</a>
+        </div>
+      </div>
+
+      <div class="dropdown">
+        <a href="eventos1.html" class="dropbtn">
+          Eventos <span class="arrow">▼</span>
+        </a>
+        <div class="dropdown-content">
+          <a href="eventos1.html">Dias especiales</a>
+          <a href="eventos2.html">Temporadas</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+<main class="eventos-grid">
+
+  <div class="evento-card">
+    <img src="img/fes4.jpg" alt="Semana Santa">
+    <h2>Abril - Semana Santa</h2>
+    <p>Aprovecha días libres para reparar. Descuentos en plomería y ferretería básica.</p>
+  </div>
+
+  <div class="evento-card">
+    <img src="img/fes10.png.webp" alt="Navidad">
+    <h2>Diciembre - Navidad</h2>
+    <p>Ofertas especiales en sets de herramientas y productos navideños.</p>
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="footer-marquee">
+    <p class="marquee-text">FERRETERÍA GUICHO — FERRETERÍA GUICHO — FERRETERÍA GUICHO —</p>
+  </div>
+
+  <div class="footer-content">
+    <p>&copy; <span id="year"></span> Ferretería GUICHO. Todos los derechos reservados.</p>
+    <p>Tianguistengo, Hidalgo</p>
+  </div>
+</footer>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
