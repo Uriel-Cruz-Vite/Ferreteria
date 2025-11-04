@@ -1,3 +1,4 @@
+/* General Body and Header Styles */
 body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
@@ -20,6 +21,7 @@ h1 {
     letter-spacing: 1px;
 }
 
+/* Image Carousel Styles */
 .carousel {
     position: relative;
     max-width: 100%;
@@ -39,7 +41,7 @@ h1 {
     opacity: 1;
 }
 
-
+/* Carousel Animation */
 @keyframes slide {
     0%    { transform: translateX(0%); }
     16.66%{ transform: translateX(0%); }
@@ -50,6 +52,7 @@ h1 {
     100%  { transform: translateX(-500%); }
 }
 
+/* Button Styles */
 .button-container {
     margin: 30px;
 }
@@ -73,7 +76,7 @@ h1 {
 }
 
 
-/* NAVBAR BASE */
+/* Navbar Styles */
 .navbar {
     background-color: #1a237e;
     padding: 20px 0;
@@ -97,7 +100,7 @@ h1 {
     gap: 15px;
 }
 
-/* ENLACES Y BOTONES */
+/* Navbar Links and Buttons */
 .navbar-links a,
 .navbar-links .dropbtn {
     color: white;
@@ -119,7 +122,7 @@ h1 {
     box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
 
-/* DROPDOWN */
+/* Dropdown Menu Styles */
 .dropdown {
     position: relative;
     display: inline-block;
@@ -155,13 +158,13 @@ h1 {
     display: block;
 }
 
-/* FLECHITA ▼ */
+/* Dropdown Arrow */
 .arrow {
     font-size: 0.7em;
     margin-left: 5px;
 }
 
-/* RESPONSIVE */
+/* Responsive Navbar Styles */
 @media (max-width: 768px) {
     .navbar-links {
         flex-direction: column;
@@ -179,6 +182,7 @@ h1 {
     }
 }
 
+/* Social Media Bar Styles */
 .social-bar {
     position: fixed;
     top: 40%;
@@ -206,14 +210,14 @@ h1 {
     transform: scale(1.2);
 }
 
-/* Ocultar en móviles si deseas */
+/* Hide Social Bar on Mobile */
 @media (max-width: 600px) {
     .social-bar {
         display: none;
     }
 }
 
-/* Estilos para menú desplegable */
+/* Dropdown Menu Styles */
 .dropdown {
     position: relative;
     display: inline-block;
@@ -255,6 +259,7 @@ h1 {
     display: block;
 }
 
+/* Footer Styles */
 .footer {
     background-color: #1a237e;
     color: white;
@@ -266,7 +271,7 @@ h1 {
     overflow: hidden;
 }
 
-/* Texto animado tipo terminal */
+/* Animated Marquee Text in Footer */
 .footer-marquee {
     width: 100%;
     overflow: hidden;
@@ -305,6 +310,7 @@ h1 {
     text-decoration: underline;
 }
 
+/* Product Grid Styles */
 .product-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
@@ -341,6 +347,7 @@ h1 {
     color: #444;
 }
 
+/* Events Grid Styles */
 .eventos-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -381,7 +388,7 @@ h1 {
     margin-bottom: 10px;
 }
 
-/* Grid general */
+/* "Quiénes Somos" Grid Styles */
 .grid-somos {
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -391,7 +398,7 @@ h1 {
     margin: auto;
 }
 
-/* Artículo principal */
+/* Main Article Styles */
 .main-article img {
     width: 100%;
     border-radius: 10px;
@@ -404,7 +411,7 @@ h1 {
     color: #1a237e;
 }
 
-/* Lado derecho */
+/* Side Articles Styles */
 .side-articles article {
     display: flex;
     flex-direction: column;
@@ -477,7 +484,7 @@ h1 {
     margin: 0;
 }
 
-/* Más noticias en forma compacta */
+/* Compact News Section */
 .mas-noticias.compact {
     padding: 20px;
     background-color: #f1f1f1;
